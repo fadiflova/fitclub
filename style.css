@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+i {
+  color: red;
+}
+li {
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+p {
+  color: white;
+}
+
+.title-h1 {
+  font-size: 3.75rem;
+  color: red;
+  text-align: center;
+  padding-top: 2rem;
+}
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: black;
+  color: lightgray;
+}
+.top-navbar i {
+  padding-right: 0.3rem;
+}
+.main-navbar {
+  display: flex;
+  background-color: red;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  overflow: hidden;
+}
+.menu-item {
+  display: flex;
+}
+.menu-item li {
+  padding: 1rem;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+.brand-logo img {
+  width: 100%;
+}
+.top-icons a {
+  padding-left: 1rem;
+}
+.slider {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/smoke-background-2107.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.slider-text {
+  padding: 300px 0 0 100px;
+  width: 70%;
+  line-height: 1.5rem;
+  color: white;
+  text-align: center;
+}
+/* .slider-text:hover {
+  animation-name: slider-text-fadein;
+  animation-duration: 2s;
+}
+@keyframes slider-text-fadein {
+  0% {
+    border: none;
+  }
+  20% {
+    border-top: 5px solid yellow;
+  }
+  40% {
+    border-top: none;
+    border-right: 5px solid yellow;
+  }
+  60% {
+    border-right: none;
+    border-bottom: 5px solid yellow;
+  }
+  80% {
+    border-bottom: none;
+    border-left: 5px solid yellow;
+  }
+  100% {
+    border-left: none;
+  }
+} */
+
+.slider-image img {
+  width: 100%;
+  padding-top: 6rem;
+}
+
+.slider-text h1 {
+  font-size: 3rem;
+  line-height: 5rem;
+}
+.slider-text h2 {
+  font-family: "Girassol", cursive;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.slider-text h3 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+}
+.slider-text p {
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.3rem;
+}
+.slider-btn {
+  padding: 1rem 4rem;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+}
+.slider-btn:hover {
+  background-color: red;
+}
+.slider-btn2 {
+  margin-left: 1rem;
+}
+
+.classes-cards {
+  display: flex;
+  justify-content: center;
+  background-color: #191a1f;
+  margin-top: -100px;
+}
+.card {
+  background-color: rgb(253, 60, 61);
+  color: white;
+  text-align: center;
+  align-items: center;
+  border: black 1px solid;
+  font-family: "Source Serif Pro", serif;
+  /* transition: 0.3s; */
+}
+.card img {
+  filter: grayscale(100%);
+}
+.card:hover img {
+  filter: none;
+}
+.card:hover {
+  box-shadow: 22px -24px 20px 0px rgba(41, 40, 41, 1);
+  transform: translateY(-20px);
+  transition: 0.3s;
+}
+#hoverBtn:hover::before {
+  content: "More";
+  transition-delay: 3ms;
+}
+.card img {
+  width: 100%;
+}
+.card-text {
+  padding: 3rem 0;
+}
+.card h2 {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+}
+.card p {
+  font-size: 22px;
+}
+.title-h1 {
+  font-size: 3.5rem;
+  color: red;
+  text-align: center;
+  padding: 4rem;
+  font-family: "Girassol", cursive;
+  font-weight: bold;
+}
+.ourstory {
+  background-color: #191a1f;
+  padding-bottom: 3rem;
+  line-height: 1.8rem;
+}
+.ourstory-features {
+  padding: 0 3rem;
+  width: 50%;
+  color: white;
+}
+.features,
+.advantage {
+  display: flex;
+  padding: 1.8rem 0;
+}
+.Advnatages-section {
+  overflow: hidden;
+}
+.features img,
+.advantage img {
+  padding-right: 1rem;
+  padding-top: 0.8rem;
+  width: 60px;
+  height: 50px;
+}
+.features h3 {
+  color: red;
+}
+.muscleBack {
+  background-image: url(./images/about-img.jpg);
+  background-size: cover;
+  background-position: left;
+  flex: 1;
+}
+.flex {
+  display: flex;
+}
+.h3,
+.h4,
+.features p {
+  color: rgb(141, 133, 134);
+  text-transform: capitalize;
+}
+.h3 {
+  font-size: 1.3rem;
+}
+.popular-classes {
+  background-image: url(./images/service-bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vw;
+}
+
+.popular-classes-cards {
+  color: white;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.popular-classes-cards img {
+  width: 100%;
+}
+.class-price,
+.class-time,
+.class-text p {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #191a1f;
+  /* width: 22rem; */
+  margin-bottom: 0.2rem;
+}
+.offer {
+  height: 40%;
+  background-color: rgb(253, 60, 61);
+  position: relative;
+}
+.offer-img {
+  /* width: 50%; */
+  padding-top: 3rem;
+}
+.popular-classes-cards:hover {
+  box-shadow: 2px 2px 5px 0px rgba(255, 0, 0, 1);
+  transition: 0.3s;
+}
+.offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+.offer * {
+  color: white;
+}
+.bg-black {
+  background-color: black;
+  overflow: hidden;
+}
+.offer-text h1 {
+  font-size: 7rem;
+  line-height: 5rem;
+}
+.offer-text h2 {
+  font-family: "Girassol", cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.offer-text h3 {
+  font-size: 2rem;
+}
+.offer-btn {
+  padding: 1rem;
+  background-color: #fd3c3d;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+}
+.offer-btn:hover {
+  background-color: white;
+  color: #fd3c3d;
+}
+.advantage {
+  display: flex;
+  padding-left: 3rem;
+}
+.advantage img {
+  border: 1px solid red;
+  padding: 10px;
+}
+.advantage h3 {
+  color: white;
+}
+
+.Advnatages-section {
+  background-image: url(./images/advantage-bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* height: 80vw; */
+}
+.advantage-text {
+  padding-left: 1rem;
+}
+.adv-row-1 {
+  display: flex;
+}
+.advantages-content {
+  display: flex;
+}
+.main-navbar i {
+  color: black;
+}
+#check {
+  display: none;
+}
+label #open-btn,
+label #cancel-btn {
+  position: absolute;
+  cursor: pointer;
+  background: rgb(63, 62, 62);
+  border-radius: 5px;
+}
+label #open-btn {
+  left: 40px;
+  top: 65px;
+  color: white;
+  font-size: 30px;
+  padding: 5px 10px;
+  transition: all 0.5s ease;
+  display: none;
+}
+label #cancel-btn {
+  left: -220px;
+  color: white;
+  font-size: 20px;
+  padding: 3px 5px;
+  top: 15px;
+  z-index: 1111;
+  transition: all 0.5s;
+}
+#check:checked ~ .menu-list {
+  left: 0;
+}
+#check:checked ~ label #open-btn {
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel-btn {
+  left: 220px;
+}
+@media (max-width: 871px) {
+  .main-navbar{
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-navbar .brand-logo img{
+    width: 80%;
+  }
+  .slider-image{
+    align-self: flex-start;
+  
+  }
+  .slider{
+    height: 80vh;
+  }
+  .slider .slider-text{
+  padding: 100px 0 0 100px;
+  }
+  .slider-btn{
+    margin-top: 10px;
+  }
+  .title-h1 {
+  padding: 2rem;
+  }
+
+.popular-classes{
+padding-bottom: 100px;
+
+}
+@media (max-width: 576px)
+{
+.top-navbar{
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.5;
+
+}
+.menu-item li {
+  padding: 1rem;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+}
+.slider {
+  height: 100vh;
+}
+.slider-text h1 {
+ 
+ line-height: 1.1;
+
+}
+ 
+ .slider-text h2{
+line-height: 1.1;
+}
+
+.slider-btn {
+  padding: 1rem 2rem;
+}
+.classes-cards {
+  flex-direction: column;
+}
+
+}
+
